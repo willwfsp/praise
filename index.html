@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MCC Winnipeg Praise Group</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Inter:wght@400;500&display=swap">
+<style>
+/* Starter home page of the public site, written once by mcc-top-songs' publish-site workflow when
+   the site has no index.html. Edit it freely in the site repo: the workflow never overwrites it. */
+:root { --bg: #f5f7fa; --surface: #ffffff; --fg: #12161c; --fg-2: #4d5562; --line: #e3e7ed; --accent: #2a78d6; }
+@media (prefers-color-scheme: dark) { :root { --bg: #111418; --surface: #1a1e24; --fg: #eef1f5; --fg-2: #b7bfcb; --line: #2b313a; --accent: #3987e5; color-scheme: dark; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 "Inter", system-ui, sans-serif; }
+main { max-width: 44rem; margin: 0 auto; padding: 56px max(16px, env(safe-area-inset-right, 0px)) 56px max(16px, env(safe-area-inset-left, 0px)); display: grid; gap: 24px; }
+h1 { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.1; margin: 0; text-wrap: balance; }
+p { margin: 0; color: var(--fg-2); }
+ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+a.card { display: grid; gap: 2px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--fg); text-decoration: none; }
+a.card:hover, a.card:focus-visible { border-color: var(--accent); outline: none; }
+a.card span { color: var(--fg-2); font-size: 0.92rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>MCC Winnipeg Praise Group</h1>
+  <p>Resources of the Praise Group of MCC Winnipeg.</p>
+  <ul>
+    <li><a class="card" href="top-songs/"><strong>Most-sung praise songs</strong><span>Rankings of the songs sung in our services over the last 12 months.</span></a></li>
+  </ul>
+</main>
+</body>
+</html>
